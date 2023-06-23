@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  height: auto;
+  width: 100%;
+}
+
+input {
+  background-color: transparent;
+  padding-left: 2vh;
+  height: 39px;
+  font-size: 1.25rem;
+  width: 32vh;
+  margin-top: 5vh;
+  margin-left: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  margin-left: 4vh;
+  height: 39px;
+  width: 10%;
+}
+
+table {
+  margin-top: 29px;
+  width: 100%;
+}
+
+.end{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(219, 211, 211);
+  padding: 10px;
+ 
+  z-index: 9999;
+}
+
+@media (max-width: 768px) {
+  /* Responsive styles for tablets */
+  input {
+    width: 40%;
+    margin: 10px 0;
+  }
+  
+  button {
+    width: 30%;
+    margin: 10px 0;
+  }
+  
+  table {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Responsive styles for phones */
+  input {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  button {
+    width: 50%;
+    margin: 10px 0;
+  }
+  
+  table {
+    font-size: 0.8rem;
+  }
+}
